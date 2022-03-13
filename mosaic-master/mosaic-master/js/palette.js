@@ -19,11 +19,11 @@ Glob.defaultPalette = [
     },
     {
         available: true,
-        rgb: [000, 000, 255], // Blue
+        rgb: [101, 201, 203], // Bleu clair
         name: 'Blue',
         notation: 'B',
         grad: true,
-        tryDitherWo: true
+        tryDitherWo: false
     },
     {
         available: true,
@@ -41,19 +41,25 @@ Glob.defaultPalette = [
         grad: true,
         tryDitherWo: false
     },
-    /*
     {
-        available: false,
-        rgb: [255, 105, 180], // Pink
+        available: true,
+        rgb: [234, 149, 162], // Pink
         name: 'Pink',
         notation: 'P',
         grad: true,
-        tryDitherWo: true
+        tryDitherWo: false
     },
-    */
     {
         available: true,
-        rgb: [255, 153, 000], // Orange
+        rgb: [29, 53, 97], // Sapphire Blue
+        name: 'Saphire',
+        notation: 'S',
+        grad: true,
+        tryDitherWo: false
+    },
+    {
+        available: true,
+        rgb: [211, 145, 57], // Orange
         name: 'Orange',
         notation: 'O',
         grad: true,
@@ -65,7 +71,7 @@ Glob.defaultPalette = [
         name: 'Yellow',
         notation: 'Y',
         grad: true,
-        tryDitherWo: false
+        tryDitherWo: true
     },
     {
         available: true,
@@ -85,7 +91,7 @@ Glob.defaultPalette = [
     },
     {
         available: true,
-        rgb: [253, 234, 165], // Wood
+        rgb: [181, 158, 141], // Wood
         name: 'Wood',
         notation: 'Wd',
         grad: true,
